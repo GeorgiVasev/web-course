@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        p {
+            font-family: Arial;
+            margin-top: 0px;
+            margin-bottom: 0px;
+            color: #a7a6a6;
+        }
+
+        .profile-pic {
+            width: 200px;
+            height: 200px;
+            object-fit: cover;
+        }
+
+        .friend-pic {
+            width: 40px;
+            height: 40px;
+            object-fit: cover;
+            border-radius: 20px;
+        }
+
+        .btn-add {
+            margin-left: 8px;
+            color: white;
+            background-color: rgb(39, 125, 255);
+            border: none;
+            font-family: Arial;
+            padding-left: 15px;
+            padding-right: 15px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+
+        .name {
+            color: black;
+            font-weight: bold;
+            margin-top: 10px;
+            margin-bottom: 8px;
+            margin-left: 8px;
+        }
+
+        .mutual-friends {
+            display: inline-block;
+            vertical-align: middle;
+        }
+
+        .horizontal-container {
+            display: block;
+            width: 200px;
+            margin-bottom: 10px;
+            margin-left: 8px;
+        }
+
+        .card {
+            width: 200px;
+            height: 340px;
+            box-shadow: 2px 3px 3px rgba(0, 0, 0, 0.3);
+        }
+
+        .card-container {
+            display: inline-block;
+            margin: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="card-container">
+        <div class="card">
+            <img class="profile-pic" src="cat.jpg">
+            <p class="name">Oliver</p>
+            <div class="horizontal-container">
+                <div class="mutual-friends">
+                    <img class="friend-pic" src="dog2.jpg">
+                </div>
+                <div class="mutual-friends">
+                    <p> 2 mutual friends</p>
+                </div>
+            </div>
+            <button class="btn-add">Add Friend</button>
+        </div>
+    </div>
+
+    <div class="card-container">
+        <div class="card">
+            <img class="profile-pic" src="cat2.jpg">
+            <p class="name">Mimi</p>
+            <div class="horizontal-container">
+                <div class="mutual-friends">
+                    <img class="friend-pic" src="dog2.jpg">
+                </div>
+                <div class="mutual-friends">
+                    <p> 3 mutual friends</p>
+                </div>
+            </div>
+            <button class="btn-add">Add Friend</button>
+        </div>
+    </div>
+
+    <div class="card-container">
+        <div class="card">
+            <img class="profile-pic" src="dog.jpg">
+            <p class="name">Rex</p>
+            <div class="horizontal-container">
+                <div class="mutual-friends">
+                    <img class="friend-pic" src="dog2.jpg">
+                </div>
+                <div class="mutual-friends">
+                    <p> 4 mutual friends</p>
+                </div>
+            </div>
+            <button class="btn-add">Add Friend</button>
+        </div>
+    </div>
+</body>
+
+</html>
