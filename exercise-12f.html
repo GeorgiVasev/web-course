@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Flex-box-12f</title>
+    <style>
+        .horizontal-container {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            height: 60px;
+            background-color: rgb(187, 0, 254);
+        }
+
+        .left-section {
+            width: 60px;
+            margin-left: 12px;
+        }
+
+        .middle-section {
+            flex: 1;
+            max-width: 400px;
+        }
+
+        .right-section {
+            width: 80px;
+            margin-right: 10px;
+        }
+
+        .btn-download {
+            border-radius: 3px;
+            color: white;
+            font-weight: bold;
+            width: 80px;
+            height: 35px;
+            border-width: 1px;
+            border-style: solid;
+            border-color: white;
+            background-color: rgb(187, 0, 254);
+        }
+
+        .home {
+            font-family: Arial;
+            font-weight: bold;
+            color: white;
+            
+        }
+
+        .search {
+            border-radius: 25px;
+            border: none;
+            width: 300px;
+            height: 35px;
+            padding-left: 15px;
+            margin-left: 10px;
+            margin-right: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="horizontal-container">
+        <div class="left-section">
+            <p class="home">Home</p>
+        </div>
+        <div class="middle-section">
+            <input class="search" type="text" placeholder="Search">
+        </div>
+        <div class="right-section">
+            <button class="btn-download">Download</button>
+        </div>
+    </div>
+
+</body>
+
+</html>

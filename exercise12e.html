@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Flex-box</title>
+    <style>
+        div {
+            font-family: Arial;
+        }
+
+        .container-vertical {
+            display: flex;
+            flex-direction: column;
+            border-width: 1px;
+            border-style: solid;
+            border-color: gray;
+            border-radius: 5px;
+        }
+
+        .container-horizontal {
+            margin-bottom: 5px;
+            border-radius: 5px;
+            padding-left: 8px;
+            padding-right: 8px;
+            height: 40px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .home {
+            border: none;
+            border-color: gray;
+            border-radius: 25px;
+            width: 45px;
+            height: 30px;
+            background-color: rgb(59, 190, 255);
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .number {
+            font-weight: bold;
+            margin: 0px;
+        }
+
+    </style>
+</head>
+
+<body>
+    <div class="container-vertical">
+        <div class="container-horizontal">
+            <div >
+                Home
+            </div>
+            <div class="home">
+                <p class="number">14</p>
+            </div>
+        </div>
+        <div class="container-horizontal">
+            <div>
+                Notifications
+            </div>
+            <div class="home">
+                <p class="number">3</p>
+            </div>
+        </div>
+
+        <div class="container-horizontal">
+            <div>
+                Messages
+            </div>
+            <div class="home">
+                <p class="number">5</p>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

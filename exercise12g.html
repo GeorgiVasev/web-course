@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Flex-box-12g</title>
+    <style>
+        p {
+            margin: 0px;
+            margin-bottom: 3px;
+            font-family: Arial;
+            font-weight: bold;
+        }
+
+        .container-vertical {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .container-horizontal {
+            display: flex;
+            flex-direction: row;
+            height: 60px;
+            margin-bottom: 10px;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .profile-pic {
+            width: 55px;
+            height: 55px;
+            border-radius: 35px;
+        }
+
+        .btn-follow {
+            border-radius: 6px;
+            border: none;
+            color: white;
+            background-color: rgb(90, 175, 255);
+            padding-top: 2px;
+            padding-left: 5px;
+            font-weight: bold;
+            height: 35px;
+            width: 65px;
+        }
+
+        .left-section {
+            width:60px;
+            margin-top: 10px;
+            margin-left: 10px;
+        }
+
+        .middle-section {
+            flex: 1;
+            margin-right: 235px;
+            margin-top: 10px;
+            margin-left: 5px;
+            
+        }
+
+        .right-section {
+            width: 80px;
+        }
+        .txt {
+            font-weight: normal;
+            color: #a9a7a7;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container-vertical">
+        <div class="container-horizontal">
+            <div class="left-section">
+                <img class="profile-pic" src="cat.jpg">
+            </div>
+            <div class="middle-section">
+                <p>Oliver</p>
+                <p class="txt">the cat</p>
+                <p class="txt">Popular</p>
+            </div>
+            <div class="right-section">
+                <button class="btn-follow">Follow</button>
+            </div>
+        </div>
+        <div class="container-horizontal">
+            <div class="left-section">
+                <img class="profile-pic" src="cat2.jpg">
+            </div>
+            <div class="middle-section">
+                <p>Mimi</p>
+                <p class="txt">Sleepy cat</p>
+                <p class="txt">Popular</p>
+            </div>
+            <div class="right-section">
+                <button class="btn-follow">Follow</button>
+            </div>
+        </div>
+        <div class="container-horizontal">
+            <div class="left-section">
+                <img class="profile-pic" src="dog.jpg">
+            </div>
+            <div class="middle-section">
+                <p>Rex</p>
+                <p class="txt">Happy Bulldog</p>
+                <p class="txt">Popular</p>
+            </div>
+            <div class="right-section">
+                <button class="btn-follow">Follow</button>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

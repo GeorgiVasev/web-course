@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Flex-box</title>
+    <style>
+        .container-one {
+            display: flex;
+            flex-direction: row;
+            margin-bottom: 30px;
+        }
+
+        .container-two {
+            display: flex;
+            flex-direction: row;
+            margin-bottom: 30px;
+        }
+
+        .container-three {
+            margin-bottom: 30px;
+            border-width: 1px;
+            border-style: solid;
+            border-radius: 5px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+        }
+
+        .container-four {
+            margin-bottom: 30px;
+            border-width: 1px;
+            border-style: solid;
+            height: 50px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container-one">
+        <div style="background-color: lightblue; width: 200px">
+            200px
+        </div>
+        <div style="background-color: lightpink; width: 75px;">
+            75px
+        </div>
+    </div>
+
+    <div class="container-two">
+        <div style="background-color: lightblue; width: 50px">
+            50
+        </div>
+        <div style="background-color: lightpink; flex: 1;">
+            rm
+        </div>
+        <div style="background-color: lightblue; width: 75px">
+            75
+        </div>
+    </div>
+
+    <div class="container-three">
+        <div style="background-color: lightblue; width: 50px">
+            50px
+        </div>
+        <div style="background-color: lightpink; width: 50px;">
+            50px
+        </div>
+        <div style="background-color: lightpink; width: 50px;">
+            50px
+        </div>
+        <div style="background-color: lightblue; width: 50px">
+            50px
+        </div>
+    </div>
+
+    <div class="container-four">
+        <div style="background-color: lightblue; width: 50px">
+            50px
+        </div>
+        <div style="background-color: lightpink; width: 50px;">
+            50px
+        </div>
+    </div>
+</body>
+
+</html>
