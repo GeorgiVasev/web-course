@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Nested-flex-box-13e</title>
+    <style>
+        p {
+            margin: 0;
+            font-weight: bold;
+            margin-bottom: 3px;
+            margin-left: 15px;
+            font-family: Arial;
+        }
+
+        .container {
+            display: flex;
+            width: 450px;
+            box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.3);
+            border-radius: 5px;
+            flex-direction: column;
+        }
+
+        .info {
+            margin-top: 8px;
+            margin-left: 13px;
+            margin-bottom: 15px;
+            font-family: Arial;
+            color: rgb(185, 185, 185)
+        }
+
+        .row-container {
+            display: flex;
+            height: 60px;
+            margin-bottom: 20px;
+            margin-left: 5px;
+            align-items: top;
+        }
+
+        .profile-picture {
+            width: 50px;
+            height: 50px;
+            border-radius: 25px;
+            margin-left: 8px;
+        }
+
+        .light-text {
+            font-weight: 200;
+            font-size: 12px;
+            color: gray;
+        }
+
+        .mid-text {
+            font-weight: 600;
+            font-size: 15px;
+        }
+
+        .time {
+            margin-left: 65px;
+            font-weight: 200;
+            font-size: 12px;
+            color: gray;
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="info">ALL INBOXES</div>
+        <div class="row-container">
+            <img class="profile-picture" src="cat.jpg">
+            <div>
+                <p>Chewy Promotions</p>
+                <p class="mid-text">Biggest sales of the year!</p>
+                <p class="light-text">Hey there! We're writing to tell you about our...</p>
+            </div>
+            <div>
+                <p class="time">4:58 PM</p>
+            </div>
+        </div>
+        <div class="row-container">
+            <img class="profile-picture" src="cat2.jpg">
+            <div>
+                <p>Chewy Promotions</p>
+                <p class="mid-text">Biggest sales of the year!</p>
+                <p class="light-text">Hey there! We're writing to tell you about our...</p>
+            </div>
+            <div>
+                <p class="time">4:58 PM</p>
+            </div>
+        </div>
+        <div class="row-container">
+            <img class="profile-picture" src="dog.jpg">
+            <div>
+                <p>Chewy Promotions</p>
+                <p class="mid-text">Biggest sales of the year!</p>
+                <p class="light-text">Hey there! We're writing to tell you about our...</p>
+            </div>
+            <div>
+                <p class="time">4:58 PM</p>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

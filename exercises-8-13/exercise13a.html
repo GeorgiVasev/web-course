@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Nested-Flex-13a</title>
+    <style>
+        .container {
+            display: flex;
+            flex-direction: row;
+            height: 50px;
+        }
+
+        .item-one {
+            width: 100px;
+            background-color: lightpink;
+        }
+
+        .item-two {
+            width: 200px;
+            background-color: lightblue;
+        }
+
+        .row-two {
+            background-color: black;
+            color: white;
+        }
+
+        .item-three {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="item-one"></div>
+        <div class="item-two">
+            <div>row1</div>
+            <div class="item-three">
+                <div class="row-two">row2</div>
+                <div class="row-two">row2</div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
